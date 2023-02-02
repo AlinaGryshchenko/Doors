@@ -40,7 +40,7 @@ class LoginViewController: UIViewController {
         registerButton.clipsToBounds = true
      
         registerButton.titleLabel?.font = UIFont(name: "Gotham-Book", size: 10)
-            
+            //
         
     }
     //underlined text
