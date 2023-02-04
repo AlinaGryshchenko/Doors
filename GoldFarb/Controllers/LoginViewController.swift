@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userTextField:         UITextField!
     @IBOutlet weak var passwordTextField:     UITextField!
     @IBOutlet weak var forgotPasswordLabel:   UILabel!
+    @IBOutlet weak var registerLabel:         UILabel!
     @IBOutlet weak var registerButton:        UIButton!
     
     override func viewDidLoad() {
@@ -36,11 +37,11 @@ class LoginViewController: UIViewController {
         userTextField.layer.borderColor = UIColor(named: "Gray$")?.cgColor
         
         forgotPasswordLabel.attributedText = strikeText(strike: "Forgot password?")
+        registerLabel.attributedText = strikeText(strike: "REGISTER")
         
         registerButton.clipsToBounds = true
      
-        registerButton.titleLabel?.font = UIFont(name: "Gotham-Book", size: 10)
-            //
+        
         
     }
     //underlined text
@@ -53,6 +54,16 @@ class LoginViewController: UIViewController {
         
     }
 
+    
+    @IBAction func registerButtonAction(_ sender: UIButton) {
+        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
 extension LoginViewController {

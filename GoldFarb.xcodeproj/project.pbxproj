@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		315BE0B3298BD85C00A12868 /* GothamBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 315BE0B2298BD85C00A12868 /* GothamBold.otf */; };
 		315BE0B5298C0DB300A12868 /* GothamBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 315BE0B4298C0DB300A12868 /* GothamBook.otf */; };
+		315BE0B7298C6E5400A12868 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315BE0B6298C6E5400A12868 /* RegisterViewController.swift */; };
+		315BE0B9298C76E900A12868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315BE0B8298C76E900A12868 /* ViewController.swift */; };
+		315BE0BB298EA3B400A12868 /* PasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315BE0BA298EA3B400A12868 /* PasswordRecoveryViewController.swift */; };
 		31B03279298B2BDA00BC9446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B03278298B2BDA00BC9446 /* AppDelegate.swift */; };
 		31B0327B298B2BDA00BC9446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B0327A298B2BDA00BC9446 /* SceneDelegate.swift */; };
 		31B03280298B2BDA00BC9446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B0327E298B2BDA00BC9446 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		315BE0B2298BD85C00A12868 /* GothamBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.otf; sourceTree = "<group>"; };
 		315BE0B4298C0DB300A12868 /* GothamBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.otf; sourceTree = "<group>"; };
+		315BE0B6298C6E5400A12868 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		315BE0B8298C76E900A12868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		315BE0BA298EA3B400A12868 /* PasswordRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRecoveryViewController.swift; sourceTree = "<group>"; };
 		31B03275298B2BDA00BC9446 /* GoldFarb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldFarb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B03278298B2BDA00BC9446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B0327A298B2BDA00BC9446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				31B0328C298B2C2E00BC9446 /* LoginViewController.swift */,
+				315BE0B6298C6E5400A12868 /* RegisterViewController.swift */,
+				315BE0BA298EA3B400A12868 /* PasswordRecoveryViewController.swift */,
+				315BE0B8298C76E900A12868 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315BE0B9298C76E900A12868 /* ViewController.swift in Sources */,
 				31B0328D298B2C2E00BC9446 /* LoginViewController.swift in Sources */,
+				315BE0BB298EA3B400A12868 /* PasswordRecoveryViewController.swift in Sources */,
 				31B03279298B2BDA00BC9446 /* AppDelegate.swift in Sources */,
 				31B0327B298B2BDA00BC9446 /* SceneDelegate.swift in Sources */,
+				315BE0B7298C6E5400A12868 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
